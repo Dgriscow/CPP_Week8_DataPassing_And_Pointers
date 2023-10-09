@@ -12,7 +12,7 @@ int main() {
 
 	cin >> temp;
 
-	cout << "Mem add of temp before value " << &temp << endl;
+	cout << "Mem address of temp before value " << &temp << endl;
 
 	pass.passByValue(temp);
 
@@ -30,7 +30,6 @@ int main() {
 	//ADDRESS OF TEMP variable to the function. 
 
 	cout << "Mem add of temp before pointerTest " << &temp << endl;
-
 
 	pass.passByPointers(&temp);
 
